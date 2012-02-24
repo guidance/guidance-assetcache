@@ -1,0 +1,41 @@
+<config>
+    <modules>
+        <Guidance_Assetcache>
+            <version>0.0.1</version>
+        </Guidance_Assetcache>
+    </modules>
+    <global>
+        <models>
+            <guidance_assetcache>
+                <class>Guidance_Assetcache_Model</class>
+            </guidance_assetcache>
+            <core>
+                <rewrite>
+                    <design_package>Guidance_Assetcache_Model_Design_Package</design_package>
+                </rewrite>
+            </core>
+        </models>
+        <blocks>
+            <guidance_assetcache><class>Guidance_Assetcache_Block</class></guidance_assetcache>
+            <page>
+                <rewrite>
+                    <html_head>Guidance_Assetcache_Block_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+        <helpers>
+            <guidance_assetcache>
+                <class>Guidance_Assetcache_Helper</class>
+            </guidance_assetcache>
+        </helpers>
+        <cache>
+            <types>
+                <asset_mtimes translate="label,description" module="guidance_assetcache">
+                    <label>Asset MTimes</label>
+                    <description>Skin/js file modified times</description>
+                    <tags>GUIDANCE_ASSETCACHE</tags>
+                </asset_mtimes>
+            </types>
+        </cache>
+    </global>
+</config>
