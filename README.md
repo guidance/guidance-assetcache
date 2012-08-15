@@ -1,3 +1,7 @@
+Note:  I have completely altered my approach on this challenge and published an alternative which uses events and is therefore much less invasive.
+
+https://github.com/gknoppe-guidance/magento-cachebuster
+
 # About
 
 Has this ever happened to you?  You have just deployed a minor CSS fix and are reviewing the change with your stakeholder.  You tell them to go to the problem area and see how it's now fixed!  Yay!  You hear typing, they click "go" (because they don't know that the Enter button would do the same thing..), they navigate to the problem page and they say.. "Uhh, it still looks broken to me.."
